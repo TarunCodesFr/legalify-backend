@@ -27,3 +27,5 @@
     "typescript": "^5.9.3",
     "zod": "^4.3.6"
 ```
+
+lazy to document
