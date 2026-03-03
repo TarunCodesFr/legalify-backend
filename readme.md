@@ -1,16 +1,19 @@
 # Legal SaaS
 
-- Basically a learning project to learn the gemini api and authentication with JWT
+- This is a Software as a Service (SaaS) what this does is basically it gets your legal document (pdf) from the frontend and in the backend it extracts the text from it and feed it to the gemini ai and the ai finds for loopholes & risks in the legal document. After that the ai's response is rendered to the frontend page, Basically a learning project to learn the gemini api and authentication with JWT. 
 
-# api routes for authentication
+# api route for authentication
 
 `'/api/auth/register'`
 `'/api/auth/login'`
 
-# api routes for uploading pdf
+# api route for uploading pdf
+
+`'/api/post/document'`
+
+# api route for getting ai's answer
 
 `'/api/content'`
-`'/api/post/document'`
 
 # techs used in backend
 
