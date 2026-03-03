@@ -28,4 +28,18 @@
     "zod": "^4.3.6"
 ```
 
+# Gemini api key
+
+in `.env` add a value with `GEMINI_API_KEY= YOUR_API_KEY`
+
+# Prisma & Postgres Database
+
+in `.env` add a value with `DATABASE_URL= YOUR_DATABASE_URL`
+
+# Authentication
+
+in `.env` add a value with `JWT_SECRET = YOUR_SECRET`
+
+to generate a jwt secret just run: `"node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"   "` in terminal of your app and it will provide you an key just paste it in the `.env`
+
 lazy to document
