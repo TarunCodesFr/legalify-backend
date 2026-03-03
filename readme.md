@@ -2,4 +2,28 @@
 
 - Basically a learning project to learn the gemini api and authentication with JWT
 
-# api routes
+# api routes for authentication
+
+`'/api/auth/register'`
+`'/api/auth/login'`
+
+# api routes for uploading pdf
+
+`'/api/content'`
+`'/api/post/document'`
+
+# techs used in backend
+
+```
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "fs-extra": "^11.3.3",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.0",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.19.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+```
