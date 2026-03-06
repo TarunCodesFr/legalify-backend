@@ -1,4 +1,4 @@
-# Legal SaaS
+# Legalify SaaS
 
 - This is a Software as a Service (SaaS) what this does is basically it gets your legal document (pdf) from the frontend and in the backend it extracts the text from it and feed it to the gemini ai and the ai finds for loopholes & risks in the legal document. After that the ai's response is rendered to the frontend page, Basically a learning project to learn the gemini api and authentication with JWT. 
 
